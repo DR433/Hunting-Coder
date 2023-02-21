@@ -1,0 +1,21 @@
+.mainNavigation ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  
+  .mainNavigation ul li {
+    padding: 23px 37px; 
+    font-weight: bolder;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+  }
+
+@media screen and (max-width: 660px) {
+  .mainNavigation ul{
+    flex-direction: column;
+    align-items: center;
+  }
+}

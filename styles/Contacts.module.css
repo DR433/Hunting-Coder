@@ -1,0 +1,72 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 3rem 4rem;
+	min-height: 100vh;
+}
+
+.pageHeading {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.afterPageHeading {
+    align-self: normal;
+}
+
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 90%;
+    height: 75%;
+}
+
+.name, .description, .email, .phone {
+    padding: 10px 30px;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formControls {
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 8px 15px;
+    margin: 15px 10px;
+    border: 1px solid rgba(76, 139, 232, 0.766);
+    border-radius: 10px;
+    background: rgba(235, 233, 233, 0.908);
+    transition-property: border, padding;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.formControls:focus{
+    border: 6px solid rgba(76, 139, 232, 0.766);
+    padding: 4px 15px;
+}
+
+.btnbody {
+    margin-top: 10px;
+}
+.submitButton {
+    margin: 1rem 3rem;
+    padding: 0.8rem 1.8rem;
+    border-radius: 10px;
+    background-color: rgba(95, 95, 224, 0.956);
+    color: white;
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: bold;
+    border: 2px solid rgba(95, 95, 224, 0.956);
+}
+
+/* @media screen and (max-width: 900px) {
+} */

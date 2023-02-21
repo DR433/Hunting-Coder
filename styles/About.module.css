@@ -1,0 +1,44 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4rem;
+	min-height: 100vh;
+}
+
+.aboutPageContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.pageHeading{
+	font-size: 50px;
+	font-style: oblique;
+	margin-bottom: 1rem;
+}
+
+.afterHeading{
+	align-self: normal;
+	margin-bottom: 1rem;
+}
+
+.aboutPage{
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 3rem;
+}
+
+.paraHeading {
+	margin-bottom: 0.6rem;
+	font-weight: bold;
+}
+
+.aboutPageParagraph{
+	margin-bottom: 1.5rem;
+	font-size: large;
+	text-indent: 4rem;
+	padding: 0 1rem;
+}
