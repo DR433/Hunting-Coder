@@ -7,7 +7,7 @@ import Spinner from './components/Spinner'
 
 
 export default function Blogs(props) {
-  const [blogs, setBlogs] = useState([]);
+  const [blogs, setBlogs] = useState(props.articles);
   const [count, setCount] = useState(8);
   const [totalBlogs, setTotalBlogs] = useState(blogs.totalBlogs);
 
@@ -100,7 +100,7 @@ export async function getStaticProps(context) {
   }
 
   return {
-    props: { totalBlogs: dirData.length, blogArray: blogArray },
+    props: { totalBlogs: dirData.length, articles: blogArray },
   }
 
 }
