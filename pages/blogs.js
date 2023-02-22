@@ -49,7 +49,9 @@ export default function Blogs(props) {
               dataLength={blogs.length}
               next={fetchingdata}
               hasMore={(blogs.length !== totalBlogs)}
-              loader={<Spinner />}>
+              loader={<Spinner />}
+              height={400}
+              >
               {
                 blogs.map((blog) => {
                   return (
